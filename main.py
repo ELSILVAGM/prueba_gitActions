@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Obtener variables
-SECRET_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY")
 
-print(f"Secret Key: {SECRET_KEY}")
+print(f"Secret Key: {API_KEY}")
 
